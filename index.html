@@ -103,30 +103,33 @@
         
         </div>
     </section>
-    <section class="presenca" id="presenca">
-        <h2>Confirmação de Presença</h2>
-        <p>Faça parte da nossa história de amor, confirme sua presença</p>
+<section class="presenca" id="presenca">
+    <h2>Confirmação de Presença</h2>
+    <p>Faça parte da nossa história de amor, confirme sua presença</p>
 
-        <form class="formulario">
+    <form class="formulario">
 
         <div class="campo">
-            <label>Nome Completo</label>
-            <input type="text" placeholder="Digite seu nome">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
         </div>
 
         <div class="campo">
-            <label>Você estará presente?</label>
+            <label for="presenca">Você estará presente?</label>
+    
             <div class="opcoes">
-                <label><input type="radio" name="presenca"> Sim</label>
-                <label><input type="radio" name="presenca"> Não</label>
+                <input type="radio" id="sim" name="presenca" value="sim" required>
+                <label for="sim">Sim</label>
+
+                <input type="radio" id="nao" name="presenca" value="nao" required>
+                <label for="nao">Não</label>
             </div>
         </div>
 
         <button type="submit">Confirmar Presença</button>
         
-        </form>
-    </section>
-
+    </form>
+</section>
 <script src="./assets/script.js"></script>
 
 </body>
