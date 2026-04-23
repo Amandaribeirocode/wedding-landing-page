@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <h1 class="logo">A & J</h1>
+            <ul>
+                <li><a href="#inicio">INÍCIO</a></li>
+                <li><a href="#nossaHistoria">NOSSA HISTÓRIA</a></li>
+                <li><a href="#evento">EVENTO</a></li>
+                <li><a href="#presentes">PRESENTE</a></li>
+                <li><a href="#presenca">CONFIRMAÇÃO DE PRESENÇA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="inicio" id="inicio">
+        <h1>Ana & João</h1>
+        <p>14 · 09 · 2025</p>
+    </main>
+    <section class="nossaHistoria" id="nossaHistoria">
+        <h2>Nossa História</h2>
+
+        <p>Tudo começou de forma simples, em um dia comum que se transformou em um dos mais especiais de nossas vidas. Entre conversas despretensiosas e sorrisos sinceros, descobrimos algo único: uma conexão verdadeira.</p>
+
+        <p>Com o passar do tempo, o que era apenas amizade se transformou em amor. Foram momentos compartilhados, desafios superados e sonhos construídos lado a lado.</p>
+
+        <p>Hoje, olhamos para trás com gratidão por tudo que vivemos e, principalmente, para frente com o coração cheio de esperança. Decidimos dar o próximo passo e celebrar o nosso amor com as pessoas que fazem parte da nossa história.</p>  
+    </section>
+    <section class="evento" id="evento">
+        <h2>Contagem Regressiva para o Grande Dia</h2>
+        <div class="relogio">
+            <div>
+                <span id="dias">00</span>
+                <span class="dias">Dias</span>
+            </div>
+
+            <div>
+                <span id="horas">00</span>
+                <span class="horas">Horas</span>
+            </div>
+
+            <div>
+                <span id="minutos">00</span>
+                <span class="minutos">Minutos</span>
+            </div>
+
+            <div>
+                <span id="segundos">00</span>
+                <span class="segundos">Segundos</span>
+            </div>
+        </div>
+    </section>
+    <section class="presentes" id="presentes">
+        <h2>Sugestão de Presentes</h2>
+        <p>Queridos familiares e amigos, para nós, a presença de vocês neste dia tão especial é o maior presente que poderíamos receber. Mas, se vocês também quiserem nos presentear, deixaremos algumas sugestões abaixo:</p>
+
+        <div class="card"
+            <img src="./assets/img/jogoJantar.jpg" alt="Jogo de Jantar">
+            <h3>Jogo de Jantar</h3>
+        </div>
+    </section>
+    <section class="presenca" id="presenca">
+        <h2>Confirmação de Presença</h2>
+        <p>Faça parte da nossa história de amor, confirme sua presença</p>
+
+        <form class="formulario">
+
+        <div class="campo">
+            <label>Nome Completo</label>
+            <input type="text" placeholder="Digite seu nome">
+        </div>
+
+        <div class="campo">
+            <label>Você estará presente?</label>
+            <div class="opcoes">
+                <label><input type="radio" name="presenca"> Sim</label>
+                <label><input type="radio" name="presenca"> Não</label>
+            </div>
+        </div>
+
+        <button type="submit">Confirmar Presença</button>
+        
+        </form>
+    </section>
+
+<script src="./assets/script.js"></script>
+
+</body>
+</html>
