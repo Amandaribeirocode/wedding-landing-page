@@ -115,7 +115,7 @@ header {
 }
 
 .evento {
-    padding: 250px 20px;
+    padding: 150px 20px;
     background-color: var(--bege-claro);
     text-align: center;
 }
@@ -123,7 +123,7 @@ header {
 .evento h2 {
     color: var(--verde-escuro);
     font-size: 36px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -165,13 +165,13 @@ header {
 
 .presentes {
     text-align: center;
-    padding: 200px 20px;
+    padding: 150px 20px;
 }
 
 .presentes h2 {
     color: var(--verde-escuro);
     font-size: 36px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     position: relative;
 }
 
@@ -184,20 +184,36 @@ header {
 }
 
 .presentes .card {
-    display: inline-block;
-    width: 200px;
+    width: 180px;
+    height: 230px;
     background-color: var(--branco-suave);
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     border: 1px solid var(--bege-claro);
     transition: 0.3s ease;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listaPresentes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 .card img {
-    width: 100%;
+    width: 85%;
     border-radius: 8px;
     margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 14px;
+    color: var(--verde-escuro);
 }
 
 .presenca {
