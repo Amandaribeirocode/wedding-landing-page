@@ -115,7 +115,7 @@ header {
 }
 
 .evento {
-    padding: 150px 20px;
+    padding: 250px 20px;
     background-color: var(--bege-claro);
     text-align: center;
 }
@@ -217,7 +217,7 @@ header {
 }
 
 .presenca {
-    padding: 80px 20px;
+    padding: 150px 20px;
     background-color: var(--bege-claro);
     text-align: center;
 }
