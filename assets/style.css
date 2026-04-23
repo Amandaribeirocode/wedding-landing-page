@@ -96,7 +96,7 @@ header {
 
 .nossaHistoria {
     text-align: center;
-    padding: 200px 20px;
+    padding: 150px 20px;
 }
 
 .nossaHistoria h2 {
@@ -115,16 +115,15 @@ header {
 }
 
 .evento {
-    padding: 150px 20px;
+    padding: 250px 20px;
     background-color: var(--bege-claro);
     text-align: center;
-
 }
 
 .evento h2 {
     color: var(--verde-escuro);
     font-size: 36px;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
     position: relative;
 }
 
@@ -144,7 +143,7 @@ header {
     align-items: center;
     justify-content: center;
     background-color: var(--branco-suave);
-    padding: 25px 20px;
+    padding: 20px 20px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     border: 1px solid var(--bege-claro);
@@ -172,7 +171,7 @@ header {
 .presentes h2 {
     color: var(--verde-escuro);
     font-size: 36px;
-    margin-bottom: 150px;
+    margin-bottom: 60px;
     position: relative;
 }
 
@@ -195,7 +194,7 @@ header {
     transition: 0.3s ease;
     }
 
-.presentes .card img {
+.card img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
