@@ -6,7 +6,9 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: var(--bege-claro);
+    background-image: url(./img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -113,7 +115,7 @@ header {
 }
 
 .evento {
-    padding: 200px 20px;
+    padding: 150px 20px;
     background-color: var(--bege-claro);
     text-align: center;
 
@@ -133,7 +135,6 @@ header {
     gap: 25px;
     flex-wrap: wrap;
     margin-top: 30px;
-
 }
 
 .relogio div {
